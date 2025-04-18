@@ -8,8 +8,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className={styles.shape} />
-
+      
       <div
         className={`${lusitana.className} text-xl text-red-600 md:text-3xl md:leading-normal`}
       />
